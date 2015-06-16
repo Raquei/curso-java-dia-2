@@ -47,7 +47,7 @@ public class Estudiante extends Persona {
 
     @Override
     public String toString() {
-        return super.toString()+ "ficha academica "+fichaAcademica+" \ncarrera "+carrera; //To change body of generated methods, choose Tools | Templates.
+        return super.toString()+ "ficha academica "+fichaAcademica+" \ncarrera "+carrera+"\n\n"; //To change body of generated methods, choose Tools | Templates.
     }
 
 }

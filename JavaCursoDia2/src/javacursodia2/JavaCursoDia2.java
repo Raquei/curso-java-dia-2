@@ -16,10 +16,13 @@ public class JavaCursoDia2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
         Persona p1 = new Persona ("jose",22,'a');
         Estudiante e1 = new Estudiante ("22822814","ing informatica",p1.getNombre(),p1.getEdad(),p1.getSexo());
         Profesor pro1 = new Profesor("ingeniero",14,p1.getNombre(),p1.getEdad(),p1.getSexo());
-        
+        System.out.println("persona "+p1);
+        System.out.println("estudiante "+e1);
+        System.out.println("profesor "+pro1);
         
     }
     
