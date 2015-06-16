@@ -5,6 +5,7 @@
  */
 package javacursodia2;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -14,13 +15,13 @@ import java.util.List;
 public class Seccion {
     private int numeroSeccion;
     private Profesor profesorAsignado;
-    private List<estudiante> estudiantes;
+    private List<Estudiante> estudiantes;
 
     public Seccion() {
         estudiantes=new ArrayList<>();
     }
 
-    public Seccion(int numeroSeccion, Profesor profesorAsignado, List<estudiante> estudiantes) {
+    public Seccion(int numeroSeccion, Profesor profesorAsignado, List<Estudiante> estudiantes) {
         this.numeroSeccion = numeroSeccion;
         this.profesorAsignado = profesorAsignado;
         this.estudiantes = estudiantes;
@@ -42,11 +43,11 @@ public class Seccion {
         this.profesorAsignado = profesorAsignado;
     }
 
-    public List<estudiante> getEstudiantes() {
+    public List<Estudiante> getEstudiantes() {
         return estudiantes;
     }
 
-    public void setEstudiantes(List<estudiante> estudiantes) {
+    public void setEstudiantes(List<Estudiante> estudiantes) {
         this.estudiantes = estudiantes;
     }
     
